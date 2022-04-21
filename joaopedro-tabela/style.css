@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 180px;
+}
+
+h1 {
+    margin-left: 405px;
+    text-decoration: underline;
+    font-size: 2.3em;
+}
+
+.gastos {
+    width: 800px;
+    height: 500;
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-size: 1.3em;
+    margin-left: 150px;
+    
+}
+
+
+td {
+    border: 1px solid black;
+    padding: 7px;
+    text-align: center;
+}
+
+.cabecalho-tabela1 {
+    background-color: #008575;
+    color: white;
+    font-size: 1.5em;
+}
+
+.tbody-t1 {
+    font-size: 1.6em;
+    text-align: center;
+    background-color: #C7DED9;
+}
+
+.mes {
+    background-color: #93C3BD;
+}
+
+.positivo {
+    background-color: rgb(67, 207, 67);
+}
+
+.negativo {
+    background-color: rgb(228, 95, 95);
+}
+
+.feliz, .triste {
+    height: 75px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.viagens {
+    border-collapse: collapse;
+    border: 5px solid black;
+    color: white;
+    width: 1150px;
+    height: 580px;
+}
+
+.cabecalho-tabela2 {
+    background-color: rgb(219, 215, 215);
+    color: black;
+    font-size: 1.7em;
+}
+
+th {
+    padding: 0 30px;
+}
+
+.tbody-t2 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.cidade {
+    padding: 0;
+    border: 0;
+    width: 160px;
+    height: 110px;
+}
+
+.imagem-cidade {
+    padding: 0;
+    border: 0;
+}
+
+.borda-cidade {
+    border-color: #3a3af8;
+}
+
+.paris {
+    background-color: #3a3af8;
+}
+
+.madrid {
+    background-color: #d6bc13;
+}
+
+.roma {
+    background-color: #23b84d;
+}
+
+.londres {
+    background-color: #CE1F2D;
+}
+
+h2 {
+    margin-left: 125px;
+}
+
+ a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 500px;
+    padding: 3px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 225px;
+}
+
+a:hover {
+    color: rgb(177, 172, 172);
+}

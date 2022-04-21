@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MEI – Microempreendedor Individual</h1>
+    <h2>Complete com suas informações:</h2>
+        <fieldset>
+            <div class="nome">
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome" required>
+            </div>
+           
+
+            <div>
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" nome="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="senha"><strong>Senha</strong></label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+            
+            
+            <div id="check">
+                <label><strong>Quais produtos você vende?</strong></label>
+                <input type="checkbox" id="produto1" name="produto1" value="notebook">
+                <label for="produto1">Notebook</label>
+                <input type="checkbox" id="produto2" name="produto2" value="tablet">
+                <label for="produto2">Tablet</label>
+                <input type="checkbox" id="produto3" name="produto3" value="smartphone">
+                <label for="produto3">Smartphone</label>
+                <input type="checkbox" id="produto4" name="produto4" value="smartwatch">
+                <label for="produto4">Smartwatch</label>
+                <input type="checkbox" id="produto5" name="produto5" value="smarttv">
+                <label for="produto5">Smart TV</label>
+            </div>
+            
+        
+
+            <div class="vendido">
+                <label><strong>Qual dos seus produtos é o mais vendido?</strong></label>
+                <label>
+                    <input type="radio" name="vendido" value="notebook" checked>Notebook
+                </label>
+                <label>
+                    <input type="radio" name="vendido" value="tablet">Tablet
+                </label>
+                <label>
+                    <input type="radio" name="vendido" value="smartphone">Smartphone
+                </label>
+                <label>
+                    <input type="radio" name="vendido" value="smartwatch">Smartwatch
+                </label>
+                <label>
+                    <input type="radio" name="vendido" value="smarttv">Smart TV
+                </label>
+            </div>
+
+            
+
+            <div class="funcionario">
+                <label for="funcionarios"><strong>Quantos Funcionários você tem?</strong></label>
+                <select name="funcionarios" id="funcionarios">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>mais de 7</option>
+                </select>
+            </div>
+
+            <div class="comentario">
+                <br>
+                <label for="comentario">Deixe um comentário a respeito da atual situação de suas vendas</label>
+                <textarea name="comentario" id="comentario" style="width: 50em;" rows="9"></textarea>
+            </div>
+           
+        </fieldset>
+       
+        
+            <button type="submit" class="enviar">Enviar</button>
+            <button type="reset" class="resetar">Resetar</button>
+        
+</body>
+</html>

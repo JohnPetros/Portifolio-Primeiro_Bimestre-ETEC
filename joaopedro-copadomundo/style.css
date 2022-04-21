@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body {
+    background-color: #A23A57;
+    color: white;
+}
+
+header {
+   text-align: center;
+}
+header h1 {
+    font-size: 60px;
+    text-decoration: underline;
+    color: gold;
+}
+
+header h2 {
+    font-size: 40px;
+}
+
+header p {
+    text-align: center;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.materia {
+    margin: 30px 90px;
+}
+
+.titulo_meio {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(216, 216, 50);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.grupos_cima {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.grupos_baixo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.nome_grupo {
+    background: rgb(233, 233, 44);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.jogos {
+    text-align: center;
+}
+
+.jogos li {
+    list-style: inside;
+}
+
+article {
+    max-width: 370px;
+}
+
+div {
+    padding: 20px;
+    border: 1px solid gold;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+li {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 1.7em;
+    justify-content: space-evenly;
+}
+
+.titulo_jogos {
+    font-size: 40px;
+    text-decoration: underline;
+    color: yellow;
+}
+
+aside h2 {
+    text-align: center;
+    color: gold;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+aside p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer {
+    background-color: #5C061E;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+}

@@ -1,0 +1,173 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #47899B;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+header {
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #B20000;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.616);
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 3.4em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+    font-weight: normal;
+}
+
+header p {
+    color: white;
+    font-size: 1.8em;
+    max-width: 500px;
+    margin-left: 120px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.589);
+    padding-bottom: 20px;
+}
+
+header img {
+    height: 200px;
+    width: 180px;
+    margin-bottom: 50px;
+}
+
+header div {
+    margin-top: 60px;
+    margin-right: 380px;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.384);
+    border-radius: 0 0 10px 10px;
+}
+
+img {
+    margin-left: 130px;
+    width: 730px;
+    margin-bottom: 20px;
+}
+
+#infraestrutura h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font: bold 12pt Arial
+}
+
+#infraestrutura img {
+    margin-bottom: 0px;
+    
+}
+
+.ds-img {
+    height: 320px;
+}
+
+h1 {
+    font-size: 2.7em;
+    color: #005B6D;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #B20000;
+    font-size: 1.5em;
+    margin: 20px 10px;
+    text-decoration: underline;
+}
+
+.conteudo {
+    margin: 40px 0;
+}
+
+.card {
+    width: 800px;
+    list-style: inside;
+    margin: 40px 50px;
+    
+}
+
+.card-name {
+    color: white;
+    background-color: #166E86;
+    padding: 10px;
+}
+
+.card a {
+    color: #166E86;
+}
+
+.card a:hover {
+    color: #61BBD4;
+}
+
+ul {
+    margin: 20px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #005B6D;
+}
+
+h4 {
+    font-size: 1.4em;
+    margin: 20px;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+iframe {
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.contatos {
+    margin-left: 70px;
+    color: #005B6D;
+}
+
+.contato {
+    font-size: 1.2em;
+    margin: 20px;
+
+}
+
+.contato a{
+    color: #005B6D;
+    font-weight: bold;
+}
+
+#video {
+    margin-left: 200px;
+}
+
+footer {
+    background-color: #B20000;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}

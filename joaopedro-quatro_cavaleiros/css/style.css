@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #041312;
+    background-image: url(../img/apocalypse.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+#container {
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    /*width: 550px;*/
+    width: 35vw;
+    left: 32%;
+    /*margin-left: 480px;
+    margin-right: auto;*/
+    padding: 10px 0;
+    font-size: 11.5px;
+}
+
+article {
+    margin: 30px 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5em;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    margin: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.origem {
+    font-size: 1.2em;
+    background-color: lightgrey;
+    color: black;
+    width: 30vh;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.descricao {
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome-cavaleiro {
+    font-size: 1.2em;
+    color: white;
+    width: 25vw;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.canto {
+    color: lightgrey;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+
+.descricao-cavaleiro {
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apocalipse {
+    text-align: center;
+    margin: 1px 0;
+}
+
+
+
+.cavaleiro-da-peste {
+    position: absolute;
+    right: auto;
+    height: 50vh;
+}
+
+.cavaleiro-da-guerra {
+    position: absolute;
+    left: auto;
+    right: 0;
+    height: 50vh;
+}
+
+
+.cavaleiro-da-fome {
+    position: absolute;
+    top: 155vh;
+    left: 0;
+    right: auto;
+    height: 50vh;
+}
+
+
+.cavaleiro-da-morte {
+    position: absolute;
+    top: 155vh;
+    left: auto;
+    right: 0;
+    height: 50vh;
+}
