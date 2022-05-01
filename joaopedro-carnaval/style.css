@@ -150,8 +150,8 @@ p {
 }
 
 .cidades {
-    width: 1300px;
-    margin: 0 7px;
+    width: 1500px;
+    margin: 0 auto;
     padding: 30px;
     overflow: hidden;
     list-style: none;

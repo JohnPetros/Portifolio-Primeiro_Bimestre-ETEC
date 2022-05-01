@@ -19,7 +19,7 @@ header {
     padding: 50px;
     text-align: center;
     background: #6b8fb8;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.471);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
     
 }
 
@@ -38,7 +38,6 @@ header p {
 
 nav {
     overflow: hidden; 
-    
     background: #3B5A7D;
 }
 
@@ -70,8 +69,8 @@ aside {
     padding-left: 20px;
 }
 
-
 .imagem1 {
+    position: relative;
     background-image:url(../img/Loja\ do\ João\ -\ Google\ Chrome\ 18_04_2022\ 11_22_03.png);
 	background-repeat:no-repeat;
 	background-size: 100% 100%;
@@ -173,6 +172,7 @@ aside {
     margin-top: 20px;
 	height:40%;
     width: 95%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.714);
 }
 
 .card p {
