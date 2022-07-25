@@ -8,10 +8,7 @@ Meus trabalhos feitos durante o 1º bimestre de Desenvolvimento de Sistemas da E
 ## Como foi Elaborado
 Site possui duas páginas, uma contendo os trabalhos da matéria de programação web, e outra da matéria de Design Digital. Ambas levam a mesma estilização e um aside apresentando informações pessoais sobre mim.
 
-
-
-
-
+ <h3><a href="https://johnpetros.github.io/familia-simpsons/">Veja o Site funcionando 👀</a></h3>
 
  🚀 Tecnologias utilizadas
 
