@@ -9,7 +9,7 @@
 
 body { 
     font-family: Arial;
-    padding: 0 10px;
+    padding: 0 50px;
     background-color: #5ca0f4;
 }
 
@@ -58,7 +58,8 @@ nav a:hover { /* mouse em cima */
 
 section {   
     float: left;
-    width: 75%;
+    width: 70%;
+    margin-right: 50px;
 	}
 
 
